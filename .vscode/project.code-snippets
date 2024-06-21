@@ -15,5 +15,19 @@
             "  }",
             "}"
         ]
+    },
+    "new Event": {
+        "scope": "javascript",
+        "prefix": "newEvent",
+        "description": "Cria uma base para Events",
+        "body": [
+            "module.exports = {",
+            "    name: \"$1\",",
+            "    once: $2,",
+            "    execute(client) {",
+            "        $3",
+            "    }",
+            "}"
+        ]
     }
 }

@@ -11,15 +11,15 @@ Vá ao seguinte diretório: `./src/discord/commands`.
 Se __preferir__ criar **sub-pastas** pode ficar à vontade.
 Crie um arquivo com a extenção `.js`.
 Dentro do arquivo use o snippet `newSlash` que ele le entregará a base de um slash command para você modificar.
-Todo o código irá ser executado deve estar dentro das `chaves` ({}) do `execute`.
+Todo o código que irá ser executado deve estar dentro das `chaves` (`{}`) do `execute`.
 
 ## Como criar events?
 Vá ao seguinte diretório: `./src/discord/events`.
 Se __preferir__ criar **sub-pastas** pode ficar à vontade.
 Crie um arquivo com a extenção `.js`.
 Dentro do arquivo use o snippet `newEvent` que ele le entregará a base de um event para você modificar.
-Todo o código irá ser executado deve estar dentro das `chaves` ({}) do `execute`.
+Todo o código que irá ser executado deve estar dentro das `chaves` (`{}`) do `execute`.
 
 ## Como usar o `Collector`?
 Basta utilizar o snippet `newCollector` que ele entregará uma base de coletor para você utilizar.
-Todo o código irá ser executado deve estar dentro das `chaves` (`{}`) do `execute`.
+Todo o código que irá ser executado deve estar dentro das `chaves` (`{}`) do `execute`.

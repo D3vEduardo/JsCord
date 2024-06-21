@@ -1,0 +1,19 @@
+{
+    "new Slash Command": {
+        "scope": "javascript",
+        "prefix": "newSlash",
+        "description": "Cria uma base para Slash Command",
+        "body": [
+            "const { SlashCommandBuilder } = require(\"discord.js\");",
+            "module.exports = {",
+            "  data: new SlashCommandBuilder()",
+            "    .setName(\"$1\")",
+            "    .setDescription(\"$2\")",
+            "    .setDMPermission($3),",
+            "  execute: async (interaction) => {",
+            "    $4",
+            "  }",
+            "}"
+        ]
+    }
+}

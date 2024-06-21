@@ -23,3 +23,7 @@ Todo o código que irá ser executado deve estar dentro das `chaves` (`{}`) do `
 ## Como usar o `Collector`?
 Basta utilizar o snippet `newCollector` que ele entregará uma base de coletor para você utilizar.
 Todo o código que irá ser executado deve estar dentro das `chaves` (`{}`) do `execute`.
+
+## Como reponder a modais?
+Basta utilizar o snippet `newReplyModal` que ele entregará uma base de um reply para você utilizar.
+Todo o código que irá ser executado deve estar dentro das `chaves` (`{}`) do `execute`.

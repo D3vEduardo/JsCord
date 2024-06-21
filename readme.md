@@ -22,4 +22,4 @@ Todo o código irá ser executado deve estar dentro das `chaves` ({}) do `execut
 
 ## Como usar o `Collector`?
 Basta utilizar o snippet `newCollector` que ele entregará uma base de coletor para você utilizar.
-Todo o código irá ser executado deve estar dentro das `chaves` ({}) do `execute`.
+Todo o código irá ser executado deve estar dentro das `chaves` (`{}`) do `execute`.

@@ -1,0 +1,27 @@
+{
+  "colors": {
+    "error": "#ff6b6b",
+    "warning": "#ffd166",
+    "success": "#6abf69",
+    "info": "#78c2ad",
+    "primary": "#4a90e2",
+    "secondary": "#7b7fda",
+    "light": "#f1f3f6",
+    "dark": "#424242",
+    "background": "#f8f8f8",
+    "text": "#495057",
+    "border": "#ced4da",
+    "highlight": "#ffa94d",
+    "pink": "#ff7eb9",
+    "purple": "#b19cd9",
+    "deepPurple": "#8e78c3",
+    "indigo": "#7699d4",
+    "blue": "#6fc0e1",
+    "cyan": "#63d2cc",
+    "teal": "#66b6a9",
+    "green": "#70be6e",
+    "yellow": "#f6cf65",
+    "orange": "#ffaf71",
+    "brown": "#a18f7d"
+  }
+}

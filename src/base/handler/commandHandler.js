@@ -91,7 +91,7 @@ module.exports = {
             console.error(error);
 
             // Responde à interação informando que ocorreu um erro
-            await interaction.reply({ content: 'There was an error while executing this command!', ephemeral: true });
+            await interaction.reply({ content: `Ocorreu um erro ao executar o comando! ${error}`, ephemeral: true });
         }
     },
 };

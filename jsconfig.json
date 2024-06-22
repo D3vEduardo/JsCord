@@ -3,7 +3,8 @@
       "baseUrl": "./",
       "paths": {
         "@base/*": ["./src/base/index.js"],
-        "@index/*": ["./src/index.js"]
+        "@index/*": ["./src/index.js"],
+        "@colors": ["./settings.json"]
       }
     },
     "exclude": ["node_modules"]

@@ -38,7 +38,7 @@ module.exports = {
                     await interaction.editReply({ content: "[D3VS Community](https://discord.gg/6aJG52gPMR)" });
                 }
             }
-        }, interaction)
+        }, reply)
 
 
     }

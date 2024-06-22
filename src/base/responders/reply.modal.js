@@ -11,7 +11,7 @@
 
 module.exports = async function ReplyModal(obj, interaction) {
     const filter = i => i.customId === obj.customId;
-    interaction.awaitModalSubmit({filter,time: 30_000}).then(
+    interaction.awaitModalSubmit({filter,time: 30000}).then(
         async modalInteraction => {
             obj.run(modalInteraction);
         }

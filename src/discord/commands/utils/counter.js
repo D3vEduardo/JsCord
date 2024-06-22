@@ -25,7 +25,7 @@ module.exports = {
     let counter = 0;
 
     /* @type {number} */
-    await interaction.reply({
+    const reply = await interaction.reply({
       content: `> Counter: \`${counter}\``,
       components: [row],
     });
@@ -42,7 +42,7 @@ module.exports = {
           }, 1000 * 3);
         },
       },
-      interaction
+      reply
     );
   },
 };

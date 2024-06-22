@@ -2,7 +2,7 @@
     "new Slash Command": {
         "scope": "javascript",
         "prefix": "newSlash",
-        "description": "Cria uma base para Slash Command",
+        "description": "Cria uma base para Slash Command.",
         "body": [
             "const { SlashCommandBuilder } = require(\"discord.js\");",
             "module.exports = {",
@@ -19,15 +19,28 @@
     "new Event": {
         "scope": "javascript",
         "prefix": "newEvent",
-        "description": "Cria uma base para Events",
+        "description": "Cria uma base para Events.",
         "body": [
             "module.exports = {",
             "    name: \"$1\",",
             "    once: $2,",
-            "    execute(client) {",
+            "    async execute(client) {",
             "        $3",
             "    }",
             "}"
+        ]
+    },
+    "new Embed": {
+        "scope": "javascript",
+        "prefix": "newEmbed",
+        "description": "Cria uma nova embed.",
+        "body": [
+            "new EmbedBuilder()",
+            ".setTitle(\"$1\")",
+            ".setDescription(\"$2\")",
+            ".setAuthor({ name: $3, iconURL: $4 })",
+            ".setColor($5)",
+            ".setFooter({ text: \"$6\", iconURL: $7 });"
         ]
     }
 }
